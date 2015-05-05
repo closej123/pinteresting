@@ -10,7 +10,7 @@ $jumbotron-bg-color: #ecf0f1;
 $btn-default-bg: #8e44ad;
 $btn-default-color: white;
 
-
+@import "bootstrap-sprockets";
 @import "bootstrap";
 
 .center {
