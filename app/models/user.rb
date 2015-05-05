@@ -7,4 +7,6 @@ class User < ActiveRecord::Base
   has_many :pins
 
   validates :name, presence: true
+
+  has_many :pins, dependent: :destroy
 end
